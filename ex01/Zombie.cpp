@@ -2,7 +2,7 @@
 #include "Zombie.hpp"
 
 Zombie::Zombie(void) {}
-Zombie::Zombie(std::string name) { this->name = name; }
+Zombie::Zombie(const std::string name) { this->name = name; }
 
 Zombie::~Zombie(void)
 {
@@ -14,7 +14,7 @@ void	Zombie::announce(void) const
 	std::cout << name << ": BraiiiiiiinnnzzzZ..." << std::endl;
 }
 
-void	Zombie::SetName(std::string& name)
+void	Zombie::SetName(const std::string& name)
 {
 	this->name = name;
 }

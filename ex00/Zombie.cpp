@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Zombie.hpp"
 
-Zombie::Zombie(std::string name) { this->name = name; }
+Zombie::Zombie(const std::string name) { this->name = name; }
 
 Zombie::~Zombie(void)
 {
