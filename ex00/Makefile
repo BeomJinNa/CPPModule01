@@ -10,7 +10,9 @@ INCLUDE	=
 #sources=======================================================================
 
 SRCS	= main.cpp \
-		  Zombie.cpp
+		  Zombie.cpp \
+		  newZombie.cpp \
+		  randomChump.cpp
 
 OBJS	= $(SRCS:.cpp=.o)
 

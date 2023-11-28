@@ -18,12 +18,3 @@ void	Zombie::SetName(const std::string& name)
 {
 	this->name = name;
 }
-
-Zombie*	newZombie(std::string name) { return (new Zombie(name)); }
-
-void	randomChump(std::string name)
-{
-	Zombie	chump(name);
-
-	chump.announce();
-}
